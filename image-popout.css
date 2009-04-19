@@ -1,0 +1,20 @@
+.example{}
+.example ul{	
+	width:700px;
+	margin:0px auto;
+}
+.image-fan-1 li{
+	float:left;
+	position:relative;
+	overflow-x:hidden;
+	overflow-y:visible;
+	background:white;
+	
+}
+li.active{
+	height:120px;
+	background:#cdd7d8;
+}
+li.highlight span.image{border:2px solid red;}
+.image-fan-1 li span{display:block;}
+/*height must be the same as the li to hide the copy when inactive - however this will be over riden in the js*/

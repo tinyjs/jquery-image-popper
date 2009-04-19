@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="charlesmarshall" />	
+	
+	<link rel="icon" type="image/gif" href="/favicon.ico" />
+	<link rel="stylesheet" href="http://tinyjs.com/files/projects/jquery-image-popper/resets.css" type="text/css" media="screen" charset="utf-8" /><link rel="stylesheet" href="http://tinyjs.com/files/projects/jquery-image-popper/styles.css" type="text/css" media="screen" charset="utf-8" /><link rel="stylesheet" href="http://tinyjs.com/files/projects/jquery-image-popper/image-popout.css" type="text/css" media="screen" charset="utf-8" />
+	<script src="http://tinyjs.com/files/projects/jquery-image-popper/jquery-1.3.1.min.js" type="text/javascript" charset="utf-8"></script><script src="http://tinyjs.com/files/projects/jquery-image-popper/jquery.image-popout.js" type="text/javascript" charset="utf-8"></script>	
+	
+	<title>jQuery Image Popper</title>
+	
+</head>
+
+<body>
+	<body>
+	<div id="container">
+		<h1>jQuery Image Popper</h1>		
+		<p>This is a simple list of images that gets turned into a cool popping out thingy.</p>
+		<p>It finds the smallest image, resizes all the li and span.image tags to this height and hides the overflow.</p>
+		<p>On hover it expands the li to its previous height and moves it up slightly to give it a popped out effect.</p>
+		
+		<div class="example clearfix">
+			<ul class='image-fan-1 clearfix'>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/1.gif" width="100" height="75" alt="1"></span>
+					<span>title</span>
+					<span>title</span>					
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/2.gif" width="100" height="75" alt="2"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/3.gif" width="100" height="88" alt="3"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/4.gif" width="100" height="70" alt="4"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/5.gif" width="100" height="75" alt="5"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>												
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/6.gif" width="100" height="75" alt="6"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>	
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/1.gif" width="100" height="75" alt="1"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/2.gif" width="100" height="75" alt="2"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>
+				<li>
+					<span class='image'><img src="http://tinyjs.com/files/projects/jquery-image-popper/3.gif" width="100" height="88" alt="3"></span>
+					<span>title</span>
+					<small>copy</small>
+				</li>			
+			</ul>	
+			
+		</div>
+		
+		
+		<p>Full-fat version of the file is <a href="http://tinyjs.com/files/projects/jquery-image-popper/jquery.image-popout.js" rel='file' title='plugin file'>here</a>, or you can download the minimized version <a href="jquery.image-popout.min.js" rel='file' title='plugin file'>here</a>.</p>
+		<p>Please note this should be done on a window.load in order to work correctly.</p>
+	</div>
+	
+	
+
+<script type="text/javascript">
+$(window).load(function(){
+	$('.example ul').imagefan();
+});
+</script>
+
+<!-- STATS -->
+<script type="text/javascript">
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	</script>
+	<script type="text/javascript">
+	try {
+	var pageTracker = _gat._getTracker("UA-2549287-19");
+	pageTracker._trackPageview();
+	} catch(err) {}
+</script>
+</body>
+	
+	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+		var pageTracker = _gat._getTracker("UA-2549287-19");
+		pageTracker._trackPageview();
+		} catch(err) {}
+	</script>
+</body>
+</html>
+
+	
